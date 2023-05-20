@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 15239942}
   - component: {fileID: 15239941}
   - component: {fileID: 15239943}
+  - component: {fileID: 15239944}
   m_Layer: 0
   m_Name: Top wall
   m_TagString: Untagged
@@ -195,6 +196,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceStrength: 5
+--- !u!114 &15239944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15239940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311f34b31ad773c429e669efaf75b090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXhit: {fileID: 530523941514585817, guid: 6474c6a1e69e09d42a6337afd5bc2173, type: 3}
 --- !u!1 &37657573
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +604,7 @@ GameObject:
   - component: {fileID: 891039697}
   - component: {fileID: 891039696}
   - component: {fileID: 891039698}
+  - component: {fileID: 891039699}
   m_Layer: 0
   m_Name: Bot wall
   m_TagString: Untagged
@@ -651,6 +666,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceStrength: 5
+--- !u!114 &891039699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891039695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311f34b31ad773c429e669efaf75b090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXhit: {fileID: 530523941514585817, guid: 6474c6a1e69e09d42a6337afd5bc2173, type: 3}
 --- !u!1 &1073806746
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,6 +956,7 @@ GameObject:
   - component: {fileID: 1423292372}
   - component: {fileID: 1423292371}
   - component: {fileID: 1423292374}
+  - component: {fileID: 1423292375}
   - component: {fileID: 1423292373}
   m_Layer: 0
   m_Name: Paddle (Player)
@@ -1076,6 +1105,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceStrength: 10
+--- !u!114 &1423292375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423292368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311f34b31ad773c429e669efaf75b090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXhit: {fileID: 530523941514585817, guid: 6474c6a1e69e09d42a6337afd5bc2173, type: 3}
 --- !u!1 &1626471600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1199,7 @@ GameObject:
   - component: {fileID: 1712764595}
   - component: {fileID: 1712764594}
   - component: {fileID: 1712764599}
+  - component: {fileID: 1712764600}
   - component: {fileID: 1712764598}
   m_Layer: 0
   m_Name: Paddle (Bot)
@@ -1306,6 +1349,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceStrength: 10
+--- !u!114 &1712764600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712764592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311f34b31ad773c429e669efaf75b090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXhit: {fileID: 530523941514585817, guid: 6474c6a1e69e09d42a6337afd5bc2173, type: 3}
 --- !u!1 &1860439926
 GameObject:
   m_ObjectHideFlags: 0
