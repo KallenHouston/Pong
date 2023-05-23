@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 6f53de5c65065334187af32c82e771fd
   - enabled: 1
-    path: Assets/Scenes/Pong.unity
+    path: Assets/Scenes/Pong1player.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: 7c972d71de42e0f46b9fe612fd30f9c2
+    path: Assets/Scenes/Pong2players.unity
+    guid: 0d6b45b07278b5340aaf1fce6dcf280e
+  - enabled: 1
+    path: Assets/Scenes/GameOverPlayer.unity
+    guid: 40af9ab461a288045b9035cad6b5047d
+  - enabled: 1
+    path: Assets/Scenes/GameOver2Players.unity
+    guid: 9973b866cbd590a4e8af984915e41e8f
   m_configObjects: {}
